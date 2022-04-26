@@ -1,0 +1,38 @@
+.nav-bar{
+    padding: 40px;
+    background-color: aqua;
+}
+.p-div{
+    display: none;
+    width: max-content;
+    /* background-color: black; */
+}
+.c-div{
+    width: 20px;
+    height: 5px;
+    background-color: rgb(40, 206, 62);
+    margin-top: 2px;
+}
+.flex-class{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-items{
+    flex-grow: 1;
+    width: 50px;
+    margin: 5px;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 480px) {
+    .flex-class{
+        /* flex-direction: column; */
+    }
+    .nav-bar{
+        display: none;
+    }
+    .p-div{
+        display: block;
+    }
+}

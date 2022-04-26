@@ -1,0 +1,114 @@
+
+body{
+	background-image: url(1st-img.jpg);
+}
+.main{
+	background-color: #00ffff26;
+	height: 500px;
+}
+.text-formatting{
+	color: #FFFFFF;
+	background-color: blue;
+	/*text-align: justify;*/
+	text-align-last: right;
+}
+.text-formatting1{
+	color: blue;
+	/*text-decoration-line: line-through;*/
+	text-decoration-line: underline;
+	/*text-decoration-line: overline;*/
+	text-decoration-color: red;
+	text-decoration-style: wavy;
+	text-decoration-thickness: 1px;
+}
+.text-formatting2{
+	text-indent: 50px;
+	letter-spacing: 2px;
+	line-height: 2.5;
+	word-spacing: 5px;
+	text-transform: capitalize;
+	/*text-transform: uppercase;*/
+	/*text-transform: lowercase;*/
+}
+.img-a{
+	vertical-align: sub;
+}
+
+a{
+	text-decoration: none;
+}
+.text-shadow{
+	text-shadow: 2px 2px 5px red;
+}
+.text-font{
+	font-family: "Lucida Console", 'Festive', cursive;
+	font-style: italic;
+	font-weight: bolder;
+	/*font-size: 40px;*/
+}
+.div1{
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	background-color: red;
+	/*overflow: auto;*/
+	overflow: hidden;
+	/*overflow: scroll;*/
+	/*overflow: visible;*/
+}
+
+.div2{
+	padding: 5px;
+	background-color: black;
+}
+
+.div3{
+	float: right;
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+.test{
+	color: blue;
+}
+.test:hover{
+	color: aqua;
+}
+.class-link:link{
+	color: red;
+}
+.class-link:visited{
+	color: black;
+}
+.class-link:active{
+	color: yellow;
+}
+.cursor{
+	cursor: help;
+}
+.list-style{
+	/* list-style-type: lower-alpha; */
+	list-style-image: url('img/1st.gif');
+}
+.pse-ele::first-line{
+	color: blue;
+}
+.pse-ele::first-letter{
+	color: black;
+	font-size: xx-large;
+}
+.pse-ele::before{
+	content: '#';
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+.pse-ele::after{
+	content: '#';
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+a[target=_blank]{
+	background-color: violet;
+}

@@ -1,0 +1,10 @@
+:root{
+    --black:  rgb(0, 0, 0);
+    --blue: blue;
+}
+
+p{
+    color: var(--blue);
+    background-color: var(--black);
+
+}

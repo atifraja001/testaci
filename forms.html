@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<meta charset="UTF-8">
+  	<meta name="description" content="Free Web tutorials">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="John Doe">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
+
+	.myForm{
+		border: 1px solid black;
+		width: max-content;
+		padding: 10px;
+		margin: ;
+	}
+	.form-head{
+		text-align: center;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	input{
+		margin: 5px 0;
+	}
+	textarea{
+		margin: 5px 0;
+	}
+
+
+
+</style>
+<body>
+	<h3>Forms</h3>
+	<div class="main">
+		<form class="myForm" action="" method="" enctype="" id="">
+			<h4 class="form-head">SignUp Form</h4>
+			<label for="userName">User Name</label><br>
+			<input type="text" name="userName" id="userName" placeholder="Enter Your User Name" required><br>
+			<label for="email">Email</label><br>
+			<input type="email" name="email" id="email" placeholder="Enter Your Email Address"><br>
+			<label for="password">Password</label><br>
+			<input type="password" name="password" id="password" placeholder="Enter New Password"><br>
+			<label for="select">City</label><br>
+			<select>
+				<option disabled selected>--Select Your City--</option>
+				<option value="lhr">Lahore</option>
+				<option value="isb">Islamabad</option>
+			</select><br>
+			<label for="message">Message</label><br>
+			<textarea cols="20" rows="3" placeholder="Type Your Message..." name="message"></textarea><br>
+			<label for="img">File</label><br>
+			<input type="File" name="img"><br>
+			<label>
+				<input type="radio" name="gender" value="male">
+				Male
+			</label>
+			<label>
+				<input type="radio" name="gender" value="female">
+				Female
+			</label><br>
+			<label for="books">
+				<input type="checkbox" name="books" value="english">
+				English
+			</label>
+			<label for="books">
+				<input type="checkbox" name="books" value="Urdu">
+				Urdu
+			</label><br>
+			<input type="submit" name="submit" value="Sign Up">
+			<input type="reset">
+		</form>
+	</div>
+</body>
+</html>

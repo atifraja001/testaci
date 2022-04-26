@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<style>
+    .div1{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        color: white;
+    }
+    .pdiv{
+        width: 400px;
+        height: 400px;
+        background-color: aqua;
+        position: relative;
+    }
+    #cdiv{
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        position: absolute;
+    }
+</style>
+<body onload="myOnload()">
+    <h3>This is dom</h3>
+    <p id="demo" class="demo" data1="">
+    </p>
+    <p id="test" class="test" data1="">
+    </p>
+    <p id="asdas" class=" class1" data1="">
+    </p>
+    <p id="asdads" class="class1" data1="">
+    </p>
+    <div id="asdads" class="class1" data1="">
+    </div>
+    <button onclick="myFunc()">button</button>
+
+    <button onclick="funcOn()">on</button>
+
+    <img id="myImg" src="img/pic_bulboff.gif" alt="img" width="100px">
+
+    <button onclick="funcOff()">off</button>
+
+    <div class="div1" onmouseover="myMouse()" onmouseup="mU()" onmousedown="mD()">
+        Mouse over
+    </div>
+    <!-- animation -->
+    <button onclick="myAnimation()">Click</button>
+    <div class="pdiv">
+        <div id="cdiv"></div>
+    </div>
+
+    <script src="js/dom.js"></script>
+</body>
+</html>
